@@ -1,0 +1,9 @@
+<%= form_for(task) do |attributes| %>
+  <%= attributes.label :title %>
+  <%= attributes.text_field :title %>
+
+  <%= attributes.label :details %>
+  <%= attributes.text_field :details %>
+
+  <%= attributes.submit %>
+<% end %>
